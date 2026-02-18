@@ -1,16 +1,19 @@
 {
-  "name": "Vertreecal",
-  "description": "Extension for enabling vertical tree view of the browser tabs",
-  "version": "1.0",
-  "manifest_version": 3,
-  "permissions": ["tabs", "sidePanel"],
-  "background": {
-    "service_worker": "background.js"
-  },
-  "side_panel": {
-    "default_path": "sidepanel/index.html"
-  },
-  "action": {
-    "default_title": "Open Vertreecal"
-  }
+    "name": "Vertreecal",
+    "description": "Extension for enabling vertical tree view of the browser tabs",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "tabs",
+        "sidePanel"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "side_panel": {
+        "default_path": "sidepanel/index.html"
+    },
+    "action": {
+        "default_title": "Open Vertreecal"
+    }
 }
